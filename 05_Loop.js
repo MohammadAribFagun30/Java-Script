@@ -29,11 +29,11 @@ do{
     console.log("Fagun..!");
     x++;
 
-}while(x<=3)
+}while(x<=3);
 
 
 
-// FOR-OF Loop
+// FOR-OF Loop --> To access individial element
 
 let str = "Fagun";
 
@@ -43,8 +43,23 @@ for(let i of str)
 }
 
 
-//FOR-IN Loop  --> Use for "Object"
+//Nested FOR-OF loop
+let heroes = [
+    ["ironman", "spiderman", "thor"],
+    ["superman", "wonder woman", "flash"]
+];
 
+for (list of heroes) {
+    for (hero of list) {
+        console.log(hero);
+    }
+}
+
+
+
+
+
+//FOR-IN Loop  --> Use for "Object"
 
 let student={
     name : "Fagun",
