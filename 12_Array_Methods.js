@@ -59,3 +59,11 @@ console.log(arr);
 let s = [3,5,6,1,4]
 s.sort();
 console.log(s);
+
+
+// Math Object
+
+// 1 Math.abs()
+// 2 Math.pow()
+// 3 Math.floor()
+// 4 Math.ceil()

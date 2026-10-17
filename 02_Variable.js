@@ -20,7 +20,7 @@ let age = 23;
 let height = 5.56;
 
 
-const number = 25; // it can`t b change
+const number = 25; // it can`t be change
 
 
 // { } bracet e shb alada

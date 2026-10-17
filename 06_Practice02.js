@@ -1,6 +1,6 @@
 // Guess yhe number
 
-let gameNumber = 25;
+let gameNumber  = Math.floor( Math.random() * 100 ) + 1;
 
 let user = prompt("Guess the number :");
 

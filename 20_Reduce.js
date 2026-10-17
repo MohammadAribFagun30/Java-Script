@@ -7,7 +7,7 @@ const output = arr.reduce(
     {
         return (previous+current);
         
-        // max
+        // max value
         // return previous > current ? previous : current; 
     }
 
