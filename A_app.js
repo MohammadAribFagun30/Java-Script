@@ -1,21 +1,21 @@
 //--> This is for signle button
 
-// let btn = document.querySelector("button");
-// console.dir(btn);
+let btn = document.querySelector("button");
+console.dir(btn);
 
-// btn.onclick = function (){
+btn.onclick = function (){
 
-//     console.log("button was clicked");
-//    alert("button was clicked");
-// }
+    console.log("button was clicked");
+   alert("button was clicked");
+}
 
 
-// function sayHello()
-// {
-//     alert("Hello, Fagun");
-// }
+function sayHello()
+{
+    alert("Hello, Fagun");
+}
 
-// btn.onclick = sayHello;
+btn.onclick = sayHello;
 
 
 
@@ -24,25 +24,25 @@
 let btns = document.querySelectorAll("button");
 console.dir(btns);
 
-// function sayHello()
-// {
-//     alert("Hello, Fagun");
-// }
+function sayHello()
+{
+    alert("Hello, Fagun");
+}
 
 
-// for(buttn of btns)
-// {
-//     buttn.onclick =sayHello;
-// }
+for(buttn of btns)
+{
+    buttn.onclick =sayHello;
+}
 
-// for(let butn of btns)
-// {
-//     butn.onmouseenter = function()
-//     {
-//         console.log("entered the button");
-//     };
-//     console.dir(butn);
-// }
+for(let butn of btns)
+{
+    butn.onmouseenter = function()
+    {
+        console.log("entered the button");
+    };
+    console.dir(butn);
+}
 
 
 
