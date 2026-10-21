@@ -14,13 +14,15 @@ console.log( student["name"] );
 let n = "name";
 console.log( student[n] );
 
+console.log( student.name );
+
 console.log( student[1] );
 
 // but can`t do
 // console.log( student.1 );
 
 
-console.log( student.name );
+
 
 // Update keys
 student["age"]  = student["age"] + 1;

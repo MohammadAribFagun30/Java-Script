@@ -43,7 +43,8 @@ console.log(arr);
 
 
 // just add value
-arr.slice(2,0,101,102);
+arr.splice(2, 0, 101, 102);
+
 console.log(arr);
 
 

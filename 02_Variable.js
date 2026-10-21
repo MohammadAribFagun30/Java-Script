@@ -36,4 +36,7 @@ const number = 25; // it can`t be change
 
 
 let p = BigInt("123");
+console.log(p)
+
 let q = Symbol("Hello");
+console.log(q)

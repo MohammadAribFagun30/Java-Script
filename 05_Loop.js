@@ -58,7 +58,7 @@ for (list of heroes) {
 
 
 
-
+// Very Important
 //FOR-IN Loop  --> Use for "Object"
 
 let student={
@@ -70,6 +70,7 @@ let student={
 
 for(let key in student)
 {
+                                        // this part
     console.log("key = ", key , "Value = ",student[key]);
 }
 

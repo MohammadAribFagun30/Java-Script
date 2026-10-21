@@ -13,14 +13,16 @@ st2 = str.toLowerCase();
 console.log(st2);
 
 // 3
-st3 = str.trim();
+st3 = str.trim(); // remove the before and after white space
 
 console.log(st3);
 
-// 4
-st4 = str.slice(0,4);
+// 4           start   end+1
+st4 = str.slice( 0  ,   4);
 
 console.log(st4);
+
+console.log( str.slice(-2) ) // backward theke 2ta character ashbe
 
 console.log(str.slice(-6, -3));
 
@@ -38,3 +40,7 @@ let text2 = " Arib"
 let res = text1.concat(text2);
 
 console.log(res);
+
+// 7
+
+console.log( text1.repeat(3) );
