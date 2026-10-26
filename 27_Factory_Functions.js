@@ -8,9 +8,7 @@ function PersonMaker(name,age)
             console.log(`Hi, my name is ${this.name}`);
         }
     }
-    return person;
-
-    
+    return person; 
 }
 
 let p1 = PersonMaker("Arib" , 24);
