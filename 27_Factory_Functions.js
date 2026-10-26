@@ -9,6 +9,8 @@ function PersonMaker(name,age)
         }
     }
     return person;
+
+    
 }
 
 let p1 = PersonMaker("Arib" , 24);
