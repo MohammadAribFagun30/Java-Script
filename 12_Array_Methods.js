@@ -38,16 +38,16 @@ console.log( marvel.slice(1,3)  ) // 1 theke 3 er age-->(1,2)
 
 let arr = [ 1,2,3,4,6,5,7 ];
 
-arr.splice(2,2,101,102); // 2 no theke 2ta element delete oi jaigai 101 102
-console.log(arr);
-
 
 // just add value
 arr.splice(2, 0, 101, 102);
-
 console.log(arr);
 
 
+
+arr.splice(2,2,101,102); // 2 no theke 2ta element delete oi jaigai 101 102
+
+console.log(arr);
 
 
 // reverse()

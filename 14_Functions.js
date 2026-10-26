@@ -69,7 +69,7 @@ setTimeout(  () => {
 console.log("Your welcome here");
 
 
-// setInterval  --> setInterval(f unction, timeout(milisec) )
+// setInterval  --> setInterval(function, timeout(milisec) )
 
 console.log("Hi, I am Fagun");
 

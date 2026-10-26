@@ -37,3 +37,6 @@ let c = countVowels("Fagun");
     return count;
 }
 
+let c2 = countVowels("Fagun");
+
+ console.log( c2 );

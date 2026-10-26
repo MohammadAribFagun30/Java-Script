@@ -24,22 +24,25 @@ function getRandomColor() {
 
 
 btn.addEventListener("click", function () {
-    let h3 = document.querySelector("h3");
-
+   
     let randomColor = getRandomColor();
+
+
+    let h3 = document.querySelector("h3");
 
     h3.innerText = randomColor;
 
+
     let div = document.querySelector("div");
 
-    div.style.backgroundColor = randomColor;
+    this.style.backgroundColor = randomColor;
 
+
+    
     p.style.color = randomColor;
     p.style.fontWeight = "bold";
     div.style.boxShadow = "5px 5px 10px gray";
     p.style.boxShadow = "5px 5px 8px gray";
-    //p.style.boxShadow = "5px 5px 20px rgba(0, 0, 0, 0.6)";
-
     pa.style.filter = "blur(0px)";
     pa.style.boxShadow = "5px 5px 8px gray";
     pa.style.color = randomColor;
@@ -50,7 +53,7 @@ btn.addEventListener("click", function () {
 )
 
 
-
+// Mouse Event
 let box = document.querySelector("#emp");
 
 box.addEventListener("mouseenter", function () {
@@ -65,7 +68,7 @@ box.addEventListener("mouseenter", function () {
 btn.addEventListener("click", function () {
 
     console.log(this);
-    console.log(this.style.backgroundColor = "pink");
+    console.log(this.style.backgroundColor = "red");
     console.log(this.style.boxShadow = "5px 5px 10px gray")
 }
 );
@@ -94,7 +97,7 @@ input.addEventListener("keydown" , function(event)
     console.log("Kay was entered")
 }
 
-)
+);
 
 
 input.addEventListener("keyup" , function()
@@ -149,7 +152,6 @@ form.addEventListener("submit", function (event) {
     
     event.preventDefault();
 
-    console.dir(inp);
     console.log(inp.value);
 }
 );
@@ -173,7 +175,8 @@ user.addEventListener("change", function () {
 let inpt = document.querySelector("#t");
 let add = document.querySelector("#ad");
 
-inp.addEventListener("input", function () {
+
+inpt.addEventListener("input", function () {
     add.innerText = inpt.value;
 }
 );

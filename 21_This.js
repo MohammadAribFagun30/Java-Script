@@ -19,24 +19,19 @@ const student =
         return this.name;
     },
 
-    
-    getMarks: () => {
-        return this.marks;
-    }
-
-
-    // marks dekhte nicher function ta use korte hbe
-    /*
     getMarks() {
             return this.marks;
         }
-    */
 
+    /*  undefined ; arrow function does not work here
+      getMarks: () => {
+        return this.marks;
+    }*/
 };
 
-console.log(student.getName())
-
 student.getAvg();
+
+console.log(student.getName());
 
 console.log(student.getMarks()); //undefined
 

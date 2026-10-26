@@ -71,9 +71,6 @@ name.forEach(
     (val, indx) => {
         console.log(val, indx);
     }
-
-
-
 );
 
 
@@ -103,9 +100,9 @@ const classInfo =
 
     ];
 
-classInfo.forEach((student) => {
+classInfo.forEach(   (student) => {
 
-    console.log(student.name);
+    console.log(student);
 
     }
 );

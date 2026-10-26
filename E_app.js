@@ -27,19 +27,19 @@ btn.addEventListener("click",function()
 
 
 // delete task --> age theke j task add korse raksi oitar upr kaj krbe
-let dltbtns = document.querySelectorAll(".delete");
+// let dltbtns = document.querySelectorAll(".delete");
 
-for(dltbtn of dltbtns)
-{
-    dltbtn.addEventListener("click",function()
-    {
-        let par = dltbtn.parentElement;
-        par.remove();
+// for(dltbtn of dltbtns)
+// {
+//     dltbtn.addEventListener("click",function()
+//     {
+//         let par = dltbtn.parentElement;
+//         par.remove();
 
-    }
+//     }
 
-    )
-}
+//     )
+// }
 
 // jekono task delete korte
 ul.addEventListener("click", function(event)
